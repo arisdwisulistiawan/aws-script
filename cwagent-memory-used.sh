@@ -18,4 +18,4 @@ cat >> /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json << EOF
    }
 }
 EOF
-/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a append-config -m ec2 -s -c file:/tmp/app.json
+/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a append-config -m ec2 -s -c
